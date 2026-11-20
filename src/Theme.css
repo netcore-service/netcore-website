@@ -12,7 +12,7 @@
     --maincontent-bg: rgba(62, 178, 255, 0.2);
     --h1-text: #023e8a;
     /*Service Pages Content*/
-    --hoverv1: linear-gradient(135deg, #ff7700, #ffffff);;
+    --hoverv1: linear-gradient(135deg, #ff7700, #ffffff);
     --service-detail-bg: #3b4f5a;
     /*Footer*/
     --footer-bg: linear-gradient(90deg, #003049, #355591);
@@ -32,6 +32,8 @@
     --create-hover: #e0e0e0;
     --verify-bg: #ececec;
 
+    /*Download Content Theme*/
+    --title-bg: linear-gradient(90deg, #004e79, #3667c4);    
 }
 
 /*For Dark Theme*/
@@ -67,4 +69,7 @@
     --createinput-bg: #173e58;
     --create-hover: #0e3b5a;
     --verify-bg: #0e3b5a;
+
+    /*Download Content Theme*/
+    --title-bg: linear-gradient(90deg, #004e79, #3667c4);    
 }

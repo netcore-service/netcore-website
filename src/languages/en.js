@@ -3,6 +3,7 @@ const en = {
     createaccount: "Create Account",
     ask: "Ask here, what you want to know.",
     services: "Services",
+    download: "Download",
     yourinquiry: "Inquiry Record",
     aboutme: "About me",
     contact: "Contact",

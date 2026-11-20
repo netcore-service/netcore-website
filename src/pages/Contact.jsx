@@ -73,7 +73,7 @@ function Contact(){
                     <div className="direct-contact">
                         <h3>{t("directcontact")}</h3>
                         <a><Mail size={18}/><p>Email : netcore.office@gmail.com</p></a>
-                        <a><PhoneCall size={18}/><p>Phone : +95 09680830173</p></a>
+                        <a><PhoneCall size={18}/><p>Phone : +95 9680830173</p></a>
                         <a><MapPin size={18}/><p>Address : No.(563/A), 8-Ward, U Ponya Str, Hlaing Thayar Tsp, Yangon.</p></a>
                         <a><Clock9 size={18}/><p>Working Hours : 9:00AM - 9:00PM</p></a>
 

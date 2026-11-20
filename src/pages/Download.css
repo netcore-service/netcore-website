@@ -1,0 +1,104 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.download-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background: var(--bg);
+}
+.download-top-nav{
+    position: sticky;
+    top: 0;
+    z-index: 6;
+    background: var(--bg);
+}
+.download-main-section{    
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    overflow: auto;
+}
+
+/*----Android App download Table----*/
+.android-application{
+    margin: 0 300px;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.android-application p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background: var(--title-bg);
+    padding: 10px 0 10px 7px;
+}
+.cyplo-tech-download tr, th, td{
+    border: 0.5px solid var(--first-text);
+    padding: 5px;
+    color: var(--first-text);
+}
+.cyplo-tech-download{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cyplo-tech-download th, td{
+    text-align: center;
+    padding: 7px;
+}
+.cyplo-tech-download img{
+    width: 40px;
+}
+.cyplo-tech-download a{
+    text-decoration: none;
+    color: #fff;
+    background: var(--footer-bottom-bg);
+    padding: 7px;
+    border-radius: 8px;
+}
+.app-name-txt{
+    font-weight: 600;
+}
+
+/*
+----Desktop App download Table----
+.desktop-application{
+    margin: 0 300px;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.desktop-application p{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--title-text);
+    background: var(--title-bg);
+    padding: 10px 0 10px 7px;
+}
+*/
+
+@media (max-width:1500px){
+    
+}
+
+/*==================== Media Size ======================*/
+@media (max-width:1200px){
+    .android-application{
+        margin: 0 100px;
+        padding: 5px 0;
+    }    
+}
+/*Mobile*/
+@media (max-width: 710px){
+    .android-application{
+        margin: 0 20px;
+        padding: 5px 0;
+    }
+}

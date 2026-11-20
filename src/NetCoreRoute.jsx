@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //Import Pages
 import Home from "./pages/Home.jsx";
 import Services from "./pages/Services.jsx";
+import Download from "./pages/Download.jsx";
 import Aboutme from "./pages/Aboutme.jsx";
 import Contact from "./pages/Contact.jsx";
 import FAQ from "./pages/FAQ.jsx";
@@ -16,7 +17,8 @@ function NetCoreRoute(){
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/services" element={<Services />} />                
+                <Route path="/services" element={<Services />} />
+                <Route path="/download" element={<Download />} />
                 <Route path="/aboutme" element={<Aboutme />} />                
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/faq" element={<FAQ />} />

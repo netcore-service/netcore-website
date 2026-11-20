@@ -7,6 +7,7 @@ import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer.jsx";
 //Import Assets
 import myprofile from "../assets/myprofile.png";
+import netcorelogo from "../assets/netcore-logo.png";
 
 function About(){
     const { t } = useLanguage();
@@ -24,7 +25,11 @@ function About(){
                         <p>{t("AMFp")}</p>
                     </div>
                     <div className="aboutme-profile">
-                        <img src={myprofile} alt="My Profile Photo" />
+                        {localStorage.getItem("NetCore_Token") ? (
+                            <img src={myprofile} alt="My Profile Photo" />
+                        ):(
+                            <img src={netcorelogo} alt="NetCore Logo"/>
+                        )}
                     </div>
                 </div>
                 <div className="aboutme-secondrow">

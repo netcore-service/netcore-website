@@ -3,6 +3,7 @@ const mm = {
     createaccount: "အကောင့်ပြုလုပ်ပါ",
     ask: "သိလိုတာ ဒီမှာမေးပါ",
     services: "ဝန်ဆောင်မှုများ",
+    download: "ဒေါင်းလုပ်",
     yourinquiry: "မေးမြန်းမှုမှတ်တမ်း",
     aboutme: "ကျွန်ုပ်အကြောင်း",
     contact: "ဆက်သွယ်ရန်",

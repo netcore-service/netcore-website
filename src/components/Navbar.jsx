@@ -50,6 +50,11 @@ function Navbar(){
                 </div>                
                 <div className="nav-links">
                     <NavLink to="/services">{t("services")}</NavLink>
+                    {localStorage.getItem("NetCore_Token") ? (
+                        <NavLink to="/download">{t("download")}</NavLink>
+                    ):(
+                        <></>
+                    )}
                     <NavLink to="/yourinquiry">{t("yourinquiry")}</NavLink>
                     <NavLink to="/aboutme">{t("aboutme")}</NavLink>                    
                     <NavLink to="/contact">{t("contact")}</NavLink>
@@ -139,6 +144,11 @@ function Navbar(){
                             )
                         }                        
                         <NavLink to="/services">{t("services")}</NavLink>
+                        {localStorage.getItem("NetCore_Token") ? (
+                            <NavLink to="/download">{t("download")}</NavLink>
+                        ):(
+                            <></>
+                        )}                        
                         <NavLink to="/yourinquiry">{t("yourinquiry")}</NavLink>
                         <NavLink to="/aboutme">{t("aboutme")}</NavLink>                     
                         <NavLink to="/contact">{t("contact")}</NavLink>
